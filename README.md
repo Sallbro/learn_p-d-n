@@ -2,50 +2,32 @@
 ## Tech Stack
 
 **Server:** Nest, Docker
+
 **Database:** postgresql
 
 ## Installation
 
 ```bash
-$ npm install
+$ git clone https://github.com/Sallbro/learn_p-d-n.git
 ```
 
-## Running the app
+## Build the nestjs application and up the container
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+$ docker-compose up --build
 ```
+## running database
+> open browser to move pgadmin dashboard on port:80 to view tables.email & pass is writen on compose file.
+> create a new server inside pgadmin using the credential given on compose file
+## running application 
+> once the application is started port:3000
+> test the endpoint
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
+## Gaming API's
+- steam - https://rapidapi.com/asusalman986/api/games-details/playground/apiendpoint_37bef8ef-fa55-4bf9-96c1-280e921ff4f0
+- GOG - https://rapidapi.com/asusalman986/api/gog-good-old-game/playground/apiendpoint_7253ba30-e0a9-4696-9389-c1c83715aadf
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [sallbro]([(https://github.com/Sallbro/])
+- Website - [vrdev.in)
 
-## License
-
-Nest is [MIT licensed](LICENSE).
