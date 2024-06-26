@@ -29,5 +29,5 @@ $ docker-compose up --build
 ## Stay in touch
 
 - Author - [sallbro]([(https://github.com/Sallbro/])
-- Website - [vrdev.in)
+- Website - [https://vrdev.in/]
 
